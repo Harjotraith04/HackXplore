@@ -1,0 +1,30 @@
+import React, { useEffect } from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import LandingPage from './pages/LandingPage';
+import LoginPage from './pages/LoginPage';
+import AdminApp from './modules/admin/AdminApp';
+import TeacherApp from './modules/teacher/TeacherApp';
+import StudentApp from './modules/student/StudentApp';
+import createSampleData from './createSampleData';
+
+function App() {
+  useEffect(() => {
+    // Uncomment the line below to run the script when the app starts
+    createSampleData();
+  }, []);
+
+  return (
+    <Router>
+      <Routes>
+        {/* do not alter for edits */}
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/login" element={<LoginPage />} />
+        <Route path="/admin/*" element={<AdminApp />} />
+        <Route path="/teacher/*" element={<TeacherApp />} />
+        <Route path="/student/*" element={<StudentApp />} />
+      </Routes>
+    </Router>
+  );
+}
+
+export default App;

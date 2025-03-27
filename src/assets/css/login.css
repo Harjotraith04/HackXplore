@@ -1,0 +1,95 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+  }
+  
+  .image-container img {
+    width: 400x;
+    margin-right: 50px;
+  }
+
+  .form-container p{
+    color: black;
+  }
+  
+  .form-container {
+    margin-right: 50px;
+    background-color: rgba(240, 239, 239, 0.833);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  }
+  
+  .form-container h1 {
+    margin-bottom: 20px;
+    color: black;
+    text-align: center;
+  }
+  
+  .form-container label {
+    display: block;
+    margin-bottom: 5px;
+    color: black;
+  }
+  
+  .form-container input,
+  .form-container select {
+    width: 500px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+  
+  .form-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .form-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .admin-mode {
+    color: black;
+  }
+
+  
+  .logged-in {
+    text-align: center;
+  }
+  
+  .logged-in button {
+    padding: 10px;
+    background-color: #28a745;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .logged-in button:hover {
+    background-color: #218838;
+  }
+
+  .admin-mode {
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Vertically align items */
+    text-align: left;
+    margin-bottom: 20px; /* Optional: Space below the admin mode line */
+  }
+  
+  .admin-mode input[type="checkbox"] {
+    margin-right: 0px; /* Minimal space between checkbox and label */
+  }
+  
+  
