@@ -102,10 +102,3 @@ Ensure to set up the environment variables in a `.env` file at the root of the p
 - Firebase configuration
 - Other API keys and secrets used in the application
 
-## Contribution
-
-We welcome contributions to make GuruCool better. If you have suggestions, bug reports, or feature requests, please open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

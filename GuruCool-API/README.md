@@ -223,10 +223,3 @@ Once the application is running, you can interact with the API using tools like 
 - `PORT`: Port number where the Flask app runs.
 - `GURUCOOL_API_KEY`: API key for securing your endpoints.
 
-## Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request for any bugs, feature requests, or improvements.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
